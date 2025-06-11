@@ -1,0 +1,78 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-image: url(files/header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  position: sticky;
+  top: 0px;
+  flex-wrap: wrap;
+  z-index: 5;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+a {
+  color: white;
+  text-decoration: overline;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  height: 900px;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.characters {
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  color: white;
+  font-family: cursive;
+  font-size: larger;
+  text-align: center;
+  zoom: 1;
+  transition: 0.5s;
+}
+
+.char1 {
+  background-image: url(files/joy.png);
+}
+
+.char2 {
+  background-image: url(files/sadness.png);
+}
+
+.char3 {
+  background-image: url(files/anger.png);
+}
+
+.char4 {
+  background-image: url(files/fear.png);
+}
+
+.char5 {
+  background-image: url(files/calm.png);
+}
+
+.char6 {
+  background-image: url(files/curiosity.png);
+}
+
+.characters:hover {
+  zoom: 1.1;
+}
